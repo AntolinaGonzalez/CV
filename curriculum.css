@@ -1,0 +1,144 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%; /*Reset para Rems*/
+  width: 100;
+}
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+width: 100;
+display: flex;
+font-family: 'Merriweather', serif;
+}
+.contenedor{
+  border-style: groove;
+  background-color: #9f9f9f;
+  max-width: 100rem;
+  margin: 0 auto;
+  /* margin: 0 auto 0 auto (otra forma de hacerlo0)*/
+}
+.titulo{
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 1rem 3rem 1rem 3rem;
+  font-style: italic;
+  background-color: black;
+}
+
+.clearfix::after {
+  content:'';
+  clear: both;
+  display: block;
+}
+.site-header{ 
+  width: 30%;
+  float: left;
+  padding: 4rem;
+  display: table-column;
+  text-align: center;
+}
+.seccion{
+ background-color:white;
+  width: 70%;
+  float: right;
+  border-left: ridge;
+}
+.header-perfil{
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.header-perfil i{
+  font-size: 2.5rem;
+}
+.fw-300{
+font-weight: 300;
+}
+.center-text{
+text-align: center;
+margin-left: auto;
+}
+
+.perfil{
+  max-width: 80%;
+  border-style: solid;
+  border-color:whitesmoke;
+  border-radius: 1rem;
+  border-width: .3rem;
+}
+
+.encabezado{
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+i{
+  color:black;
+  font-style: bold;
+  font-size: 5rem;
+  margin-right: 1rem;
+}
+.partes{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 2rem;
+}
+.puntero:last-of-type{
+  margin-right: 0;
+}
+.contenido{
+  padding: 2rem;
+}
+.habilidades{
+  background-color: black;
+}
+.size{
+  size: 20rem;
+}
+h1,h2,h3,p{
+  color:black;
+  line-height: 2.5rem;
+}
+.orden h1{
+  color: white;
+}
+.orden{
+  display: flex;
+}
+
+.rotulo{
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+.iconos{
+ margin-bottom: 4rem;
+}
+
+.secciones{
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black
+}
+.informacion h2{
+  line-height: 2rem;
+}
+
+.links{
+  display: list-item;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+.links a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+.texto{
+  margin-left: 1rem;
+}
